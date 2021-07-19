@@ -10,6 +10,9 @@ const HOST = '192.168.10.1';
 const drone = dgram.createSocket('udp4');
 drone.bind(PORT);
 
+
+
+
 function parseState(state) {
   return state
     .split(';')
